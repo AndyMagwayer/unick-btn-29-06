@@ -61,3 +61,239 @@
         "m58.67,41.32l6.82,22.39-30.16,2.69,23.33-25.08ZM38.33,5.04l-7.07,1.43,5.89,8,1.18-9.43ZM14.14,49.43l19.4,9.23,17.03-21.36-36.43,12.13Zm-7.32-14.1l-.65,15.05,41.43-20.27-40.78,5.22Zm17.54-10.54l-18.19,2.04,5.41,4.26,12.78-6.3Zm195.63-4.06l-15.52-15.69-38.09,18.86,53.61-3.17Zm-6.18,6.1l-18.19-2.04,12.78,6.3,5.41-4.26ZM171.77,0l-18.22,17.69,26.3-14.32-8.08-3.37Zm16.97,6.47l-7.07-1.43,1.18,9.43,5.89-8ZM48.23,0l-8.08,3.37,26.3,14.32L48.23,0ZM15.52,5.04L0,20.73l53.61,3.17L15.52,5.04Zm133.58,53.38l5.41-4.26-7.82-10.3,2.41,14.57Zm-12.78,3.5l12.76,3.32-17.47-21.78,4.71,18.46Zm23.78,4.48l21.56-7.98-20.34-17.1-1.23,25.08Zm33.01.61l12.75-17.58-36.43-12.13,23.68,29.71Zm23.31-14.04v-19.4l-44.03-3.47,44.03,22.86Zm-125.56,8.57l7.62,4.4-.77-15.57-6.85,11.17Zm32.47.39l11.91,6.06-12.96-17.62,1.05,11.56Zm-57.84-7.78l5.41,4.26,2.41-14.57-7.82,10.3Zm5.43,11.09h17.19l-6.18-24.55-11.01,24.55Zm42.62-4.09l1.11-18.93-12.98,24.18,11.86-5.25Z"
       );
     }
+    .twinkle_white {
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 210px;
+        height: 58px;
+        background: rgba(255, 255, 255, 0.7);
+        transition: all ease 0.8s;
+        clip-path: path(
+          "m31.82,21c-1.13,3.75-4.54,8.87-8.93,6.69-1.67-.97-2.72-3.28-4.65-3.22l.11.48c-4.32,4.59-10.64,7.19-16.91,6.95-.98.09-1.53-.69-1.44-1.65.28-7.27-.23-17.33,7.77-20.5,5.04-3.01,11.13-2.4,15.73,1.23,2.79,1.52,2.87,4.66,1.66,7.37,2.9-.38,8.77-2.98,6.66,2.63Zm5.66-15.43c-1.42-.76-3.09.16-4.33.92-3.86,2.54-1.24,4.8,1.97,5.83,3.16,1.03,4.88-5.29,2.36-6.74ZM50.32.14c-1.99-.45-3.91,1.25-4.3,3.16-.74,1.87,1.24,5.51,3.05,3.08,1.75-1.53,5.02-4.99,1.25-6.24Zm11.3,1.45c.06,1.44-2.04,2.15-2.84.97-1.55-2.31,2.52-3.9,2.84-.98,0,0,0,0,0,.01Zm-2.99-.01s0,.05,0,.08c0-.03,0-.05,0-.08Zm122.94,39.65c-1.89-.28-6.49,2.59-6.38,4.72,0,1.3,1.32,2.53,2.59,2.03,3.17,2.13,7.67-5.14,3.79-6.75Zm26.14,4.19c-3.76-.72-7.78.11-10.96,2.25-.61-.63-.25-1.88-.95-2.39-.52-.38-1.23-.09-1.79.2-1.43.74-3.39,1.6-3.39,1.6-1.5.31-.11,3.55.99,3.76,1.42.08,1.65.91.97,2.13-.84,1.64-2.03,5.38,1.05,5,6.46-.3,12.66-4.03,15.99-9.62,1.09-1.42-.36-2.71-1.91-2.93Zm-43.05,6.57c1.25,2.17-1.97,4.41-3.54,2.51-.94.51-2.16-.29-2.13-1.35.4-2.45,4.46-3.64,5.68-1.16Zm-1.16.73s-.04-.05-.05-.07c.05.09.1.17.14.27-.03-.07-.06-.14-.08-.2Zm-15.96-.78c-.89-.86-2.7-.49-3.17.66-.61,1.23.9,2.6,2.06,1.91,1.32.1,2.06-1.65,1.11-2.57Zm24.81-.73c-1.2-1.91-4.04.04-2.49,1.76,1.2,1.91,4.04-.04,2.49-1.76Z"
+        );
+      }
+      .twinkle_color {
+        position: absolute;
+        z-index: 6;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 200px;
+        height: 66px;
+        background: linear-gradient(-15deg, #ffee7f 50%, #9afcff 50%);
+        clip-path: path(
+          "m2.41,56.51c-1.5,1.1-2.76-1.09-2.32-2.49,1.91-9.01,13.14-9.61,20.62-10.63,3.1-.59,3.62,2.02,1.39,3.89-5.19,4.8-11.74,8.39-18.78,9m26.18-3.23c-4.98,2.71-10.25,6.41-12.92,11.49-.01.99,1.21,1.48,2.2,1.52,5.39.16,9.4-4.51,11.22-9.18.76-1.2.55-3.75-1.31-3.3M197.31,8.82c-7.04.61-13.59,4.2-18.78,9-2.2,1.86-1.73,4.49,1.39,3.89,7.47-1.01,18.71-1.62,20.62-10.63.43-1.4-.81-3.6-2.32-2.49m-29.39,4.42c4.98-2.71,10.25-6.41,12.92-11.49.01-.99-1.21-1.48-2.2-1.52-5.39-.16-9.4,4.51-11.22,9.18-.76,1.2-.55,3.75,1.31,3.3"
+        );
+      }
+      .reflection_top {
+        position: absolute;
+        z-index: 7;
+        top: 6px;
+        right: 6px;
+        width: 146px;
+        height: 44px;
+        background: linear-gradient(10deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.9));
+        clip-path: path("m0,11.36L16.95,2.53,99.76,0l25.25,5.68,21.05,23.36-8.18,14.32-68.87-16.42L0,11.36ZM14.45,2.9");
+      }
+      .reflection_bottom {
+        position: absolute;
+        z-index: 8;
+        left: 0;
+        right: 0;
+        bottom: 4px;
+        margin: 0 auto;
+        width: 96px;
+        height: 32px;
+        border-radius: 50%;
+        opacity: 0.6;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.8) 10%, rgba(255, 255, 255, 0));
+      }
+      .shine {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 204px;
+        height: 62px;
+        &::before,
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          width: 45px;
+          height: 58px;
+          background: #fff;
+          transform: scale(0);
+          clip-path: path("m27.17,29c10.87-9.47,17.83-18.56,17.83-18.56,0,0-9.07,4.53-19.61,12.44-.6-13.08-2.89-22.88-2.89-22.88,0,0-2.29,9.81-2.89,22.88C9.07,14.97,0,10.44,0,10.44c0,0,6.96,9.08,17.83,18.56C6.96,38.47,0,47.56,0,47.56c0,0,9.07-4.53,19.61-12.44.6,13.08,2.89,22.88,2.89,22.88,0,0,2.29-9.81,2.89-22.88,10.53,7.91,19.61,12.44,19.61,12.44,0,0-6.96-9.08-17.83-18.56Z");
+          transition: all ease 0.8s;
+        }
+        &::before {
+          left: -1px;
+        }
+        &::after {
+          right: -1px;
+        }
+      }
+      .shine_shadow_R,
+      .shine_shadow_L {
+        position: absolute;
+        z-index: 9;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        width: 4px;
+        height: 52px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0 0 5px #fa9cff;
+        transition: all ease 0.8s;
+        opacity: 0;
+        transform: scale(0);
+        &::before,
+        &::after {
+          content: "";
+          position: absolute;
+          top: -3px;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          background: #fff;
+          box-shadow: 0 0 5px #fa9cff;
+          transition: inherit;
+        }
+        &::before {
+          transform: rotate(49deg);
+        }
+        &::after {
+          transform: rotate(-49deg);
+        }
+      }
+      .shine_shadow_R {
+        right: 37px;
+      }
+      .shine_shadow_L {
+        left: 37px;
+      }
+      .text {
+        position: relative;
+        z-index: 11;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: #fff;
+        transition: all ease 0.8s;
+      }
+      &--A {
+        &::before {
+          background: #490869;
+        }
+        &::after {
+          background: linear-gradient(0deg, rgba(187, 0, 212, 0) 5%, rgba(204, 0, 130, 1) 60%, rgba(30, 0, 64, 1));
+        }
+        .glow_back {
+          background: #bf349d;
+        }
+        .shine_shadow_R,
+        .shine_shadow_L {
+          box-shadow: 0 0 5px #fa9cff;
+          &::before,
+          &::after {
+            box-shadow: 0 0 5px #fa9cff;
+          }
+        }
+      }
+      &--B {
+        &::before {
+          background: #ab0f58;
+        }
+        &::after {
+          background: linear-gradient(0deg, rgba(50, 50, 50, 0), rgba(50, 50, 50, 1));
+        }
+        .shine::before {
+          display: none;
+        }
+        .glow_back {
+          background: #a37db8;
+        }
+        .shine_shadow_R {
+          box-shadow: 0 0 5px #f92385;
+          &::before,
+          &::after {
+            box-shadow: 0 0 5px #f92385;
+          }
+        }
+      }
+      &--C {
+        &::before {
+          background: #005899;
+        }
+        &::after {
+          background: linear-gradient(0deg, rgba(50, 50, 50, 0), rgba(50, 50, 50, 1));
+        }
+        .shine::after {
+          display: none;
+        }
+        .glow_back {
+          background: #a37db8;
+        }
+        .shine_shadow_L {
+          box-shadow: 0 0 5px #2bd0fc;
+          &::before,
+          &::after {
+            box-shadow: 0 0 5px #2bd0fc;
+          }
+        }
+      }
+      &:hover {
+        .shine::before,
+        .shine:after {
+          transform: scale(1);
+        }
+        .shine_shadow_R,
+        .shine_shadow_L {
+          opacity: 1;
+          transform: scale(1);
+        }
+        .twinkle_white {
+          background: rgba(255, 255, 255, 1);
+        }
+        .text {
+          letter-spacing: 4px;
+        }
+      }
+      &--A:hover {
+        &::before {
+          background: #750ea9;
+        }
+        .glow_back {
+          background: #ff45d1;
+        }
+      }
+      &--B:hover {
+        &::before {
+          background: #ff1784;
+        }
+        .glow_back {
+          background: #e2adff;
+        }
+      }
+      &--C:hover {
+        &::before {
+          background: #007fde;
+        }
+        .glow_back {
+          background: #e2adff;
+        }
+      }
+    }
